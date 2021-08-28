@@ -315,3 +315,12 @@ li {
 .logo-stud {
   color: var(--secondary-text-color);
 }
+
+
+.glr-item{
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  padding: 250 30px;
+}
+
