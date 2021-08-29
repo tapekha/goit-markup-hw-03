@@ -35,6 +35,7 @@ ul {
 
 .section {
   padding: 94px 0;
+
 }
 
 .section-title {
@@ -70,6 +71,7 @@ ul {
 
 .column-item {
   padding: 0 15px;
+  margin-top: 30px;
 }
 
 .row-flex__two-columns .column-item {
@@ -250,8 +252,10 @@ li {
 
 .button-list {
   display: flex;
+  width: 611px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
-  justify-content: center;
 }
 
 .button-list .item + .item {
@@ -339,6 +343,7 @@ li {
 }
 
 .works-item{
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -347,6 +352,7 @@ li {
 }
 
 .item-text{
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -367,9 +373,8 @@ li {
   font-family: "Raleway", sans-serif;
 }
 .glr-item{
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
+  padding: 20px 24px;
+  border: 1px solid #f5f4fa;;
 }
 
 img{
