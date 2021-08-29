@@ -91,7 +91,7 @@ ul {
 
 .header-list{
   display: flex;
-  margin-left: auto;
+  margin-left: 93px;
 }
 
 .header-list .item{
@@ -194,7 +194,8 @@ li {
 
 .footer  {
     color: var(--secondary-text-color)
-    padding: 15 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
 /*hero-section*/
@@ -228,7 +229,8 @@ li {
     color: var(--secondary-title-color);
     background-color: var(--secondary-background-color);
     font-family: "Roboto", sans-serif;
-    padding: 10px 32px;
+    white-space: nowrap;
+    padding: 6px 22px;;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -245,6 +247,17 @@ li {
   background-color: var(--accent-color);
   opacity: 0.8;
 }
+
+.button-list {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.button-list .item + .item {
+  margin-left: 8px;
+}
+
 
 /*abilities of the company*/
 
@@ -342,6 +355,7 @@ li {
 
 .logo-footer {
   display: inline-block;
+  margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 26px;
@@ -379,6 +393,15 @@ img{
   letter-spacing: 0.03em;
 }
 
-.contacts-link .site-contacts{
-  padding-top: 9px;
+.contacts-footer .item {
+  margin-top: 9px;
+}
+
+.contacts-footer .contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer .contacts-link:hover,
+.contacts-footer .contacts-link:focus {
+  color: #2196f3;
 }
