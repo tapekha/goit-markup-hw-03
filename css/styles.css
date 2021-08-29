@@ -195,8 +195,9 @@ li {
   }
 
 .footer  {
+    display: block;
+    box-sizing: border-box;
     color: var(--secondary-text-color)
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 
@@ -324,6 +325,7 @@ li {
 .footer{
     background-color: var(--third-background-color);
     color: var(--secondary-text-color);
+    padding-bottom: 60px;
 }
 
 .adress {
