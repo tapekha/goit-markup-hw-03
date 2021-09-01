@@ -45,6 +45,7 @@ ul {
 }
 
 .section-title {
+  margin-bottom: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -306,6 +307,7 @@ li {
 }
 
 .member-name{
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -315,6 +317,7 @@ li {
 }
 
 .skill{
+    margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -383,6 +386,7 @@ li {
 }
 .glr-item{
   margin-bottom: 30px;
+  padding: 20px 16px;
   border: 1px solid #f5f4fa;;
 }
 
